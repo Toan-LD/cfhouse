@@ -281,7 +281,7 @@ header {
     width: 456px;
     padding: 130px 0 165px;
     height: 536px;
-    margin-left: 100px;
+    margin-left: 20px;
 }
 
 .module-left{
@@ -329,13 +329,13 @@ header {
 }
 
 .img-about {
-    width: 700px;
-    height: 600px;
+    width: 600px;
+    height: 500px;
     display: inline-block;
     position: absolute;
     right: 0;
     padding: 95px 0;
-    margin-right: 20px;
+    margin-left: 10px;
 }
 
 .module-right{
@@ -447,7 +447,7 @@ header {
 
 .product-info {
     display: inline-block;
-    width: 440px;
+    width: 400px;
     height: 100%;
     position: relative;
     bottom: 10px;
@@ -532,7 +532,7 @@ header {
 }
 
 .gallery {
-    height: 856px;
+    height: 750px;
     padding: 90px 0;
 }
 
@@ -600,8 +600,7 @@ header {
     transition: color 0.3s;
 }
 
-.gallery-item:hover::before,
-.gallery-img-left:hover::before {
+.gallery-item:hover::before {
     content: "";
     width: 100%;
     height: 100%;
@@ -610,6 +609,17 @@ header {
     position: absolute;
     top: 0;
     left: 15px;
+}
+
+.gallery-img-left:hover::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .gallery-item:hover i,
