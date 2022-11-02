@@ -329,7 +329,7 @@ header {
 }
 
 .img-about {
-    width: 600px;
+    width: 6s00px;
     height: 500px;
     display: inline-block;
     position: absolute;
@@ -632,6 +632,40 @@ header {
     color: #e7b45a;
     cursor: pointer;
 }
+
+.gallery .popup-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.9);
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    display: none;
+}
+
+.gallery .popup-image span {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 60px;
+    font-weight: bolder;
+    color: #fff;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.gallery .popup-image img{
+    position: absolute;
+    top: 50%;   
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #e7a63b;
+    border-radius: 5px;
+    width: 750px;
+    object-fit: cover;
+}
+
 
 .operate-time {
     width: 100%;
