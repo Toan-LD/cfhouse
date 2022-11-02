@@ -858,3 +858,44 @@ header {
     font-size: 14px;
     letter-spacing: 1px;
 }
+
+.news hr {
+    margin: 50px 0;
+}
+
+.section-service-end {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-item {
+    display: inline-block;
+    width: 300px;
+    
+}
+
+.service-item:nth-child(2) {
+    position: relative; 
+    top: 10px;
+}
+
+.service-img {
+    display: inline-block;
+    width: 65px;
+    height: 65px;
+    position: relative;
+    margin-right: 20px;
+}
+
+.service-img img {
+    vertical-align: middle;
+
+}
+
+.service-item  span{
+    font-size: 14px;
+    color: #707070;
+    display: inline-block;
+    width: 200px;
+    vertical-align: middle;
+}
